@@ -1,0 +1,1 @@
+# majkysuk.github.io
