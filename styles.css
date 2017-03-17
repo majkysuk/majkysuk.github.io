@@ -1,0 +1,65 @@
+/* <link rel="stylesheet" href="stalinistone.ttf" />  Як прикрутити */
+
+body {
+    font: 20px Arial, Helvetica, sans-serif; /* Замінити */
+    background: #FFFACD;
+    margin: 0; 
+   }
+
+h1#top {
+    background: #8fa09b; /* Цвет фона */
+    font-size: 2em; /* Размер текста */
+    color: #edeed5; /* Цвет текста */
+    padding: 15px; /* Отступы вокруг текста */
+
+   }
+
+#menu { 
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #BDB76B;
+  position: fixed;
+  left: 0;
+  top: 120px;
+	}
+
+/*
+#menutext {
+	color: #752641;
+	}
+*/
+
+#wether {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  background: #00FFFF;
+  position: fixed;
+  right: 0;
+  top: 120px;
+	}
+
+article {
+	margin-left: 15%;
+	margin-right: 20%;
+	}
+
+A:link { 
+	text-decoration: none;
+	color: blue;
+	} 
+
+A:visited { 
+	text-decoration: none; 
+	color: blue;
+	} 
+
+A:active { 
+	text-decoration: none; 
+	}
+
+A:hover {
+    text-decoration: underline;
+    color: magenta;
+	} 
