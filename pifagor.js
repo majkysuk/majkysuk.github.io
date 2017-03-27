@@ -19,29 +19,22 @@ function generateTable(parent) {
 
 		x = document.createElement("tr");
 
-		for (j=1; j<10; j++) {
+		for ( j = 1; j < 10; j++) {
 
-			y = document.createElement(i == 1 || j == 1 ? "th" : "td");
+			y = document.createElement("td");
 
 			y.appendChild(document.createTextNode(i*j));
 
 			y.style.padding = "4px";
 
-			y.style.width = 100 / 9 + "%";
+			y.style.width =  "48px";
+
+			y.style.background = (i < j || j > i ? "aqua" : "yellow");
 
 			if (i == j) {
 				y.style.color = "white";
 				y.style.background = "Black";
 			}
-
-			if (i < j) {				
-				y.style.background = "aqua";
-			}
-
-			if (i > j) {				
-				y.style.background = "yellow";
-			}
-
 				
 			x.appendChild(y);
 
