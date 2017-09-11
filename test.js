@@ -4,28 +4,30 @@ function tryit(main) {
 document.write(z);
 }
 
-var array(6) = [2,4,6,1,3,5];
 
-function max (array) {
-	return Math.max.apply( Math, array );
+
+var ar = [2,4,6,1,3,5];
+
+function max (ar) {
+	var m = Math.max.apply( Math, ar );
 	
-	alert (max);
+	document.write (m);
 }
 
 function www(arr){
 
-var arr = new Array(5), i;
+	var arr = new Array(5), i;
 
-	for(i = 0; i < arr.length; i++) {
+		for(i = 0; i < arr.length; i++) {
 
-	    arr[i] = +prompt('Enter number');
+		    arr[i] = +prompt('Enter number');
 
-	}
+		}
 
 
 	var max = Math.max.apply(null, arr);
 
 	 
-	document.write(max);
+	alert(max);
 
 }
