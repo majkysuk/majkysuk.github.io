@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+<meta charset="utf-8">
+<title>Фото</title>
+</head>
+<body>
+
+<a href="index.html">1</a>
+<a href="index2.html">2</a>
+<a href="index3.html">3</a>
+<a href="index4.html">4</a>
+<a href="index5.html">5</a>
+
+<div>
+
+	<plaintext> 
+		1. What does <fieldset> tag define?
+		c) Groups related elements in a form
+	
+		2. What is the correct HTML for making a drop-down list?
+		a) <select>
+
+		3. The ... atrribute of image tag specifies the text to be shown in case of failure of displaying image?
+		<img alt="text"> 
+
+		4. What is a document flow?
+		a) It's a the model by which elements are rendered by default in the CSS specifications
+
+		5. Which SQL statement is used to return only different values?
+
+
+		6. How to hide element so it will still takes up the same space as before?
+		a) visibility:hidden;
+
+		7. Consider this code:
+		15
+
+		8. There is a list of IP addresses is given in answers. Please select all valid IP addresses according to IPv4
+			protocol
+		a,c,d,h
+
+		9. Please answer to the question: What are the basics concepts of Object-Oriented Programming
+		b) Encapsulation
+		c) Polymorphism
+		d) Inheritance
+
+
+
+		<script type="text/javascript">
+	
+			function max (array) {
+				var max = Math.max.apply(null, array);
+			}
+
+		</script>
+
+
+
+
+	<table border="3">
+		<tr>
+			<td colspan="4">Test table</td>
+		</tr>
+	
+		<tr>
+			<td colspan="2">&nbsp</td>
+			<td rowspan="3">&nbsp</td>
+			<td>&nbsp</td>
+		</tr>
+	
+		<tr>
+			<td rowspan="2">&nbsp</td>
+			<td>&nbsp</td>
+			<td>&nbsp</td>
+		</tr>
+
+		<tr>
+			<td>&nbsp</td>
+			<td>&nbsp</td>
+		</tr>
+
+
+
+	</table>
+
+
+	<script type="text/javascript">
+		function generateTable(parent) {
+
+	
+			var table, x, y, i, j;
+			var f = [0,1];
+	
+			table = document.createElement("table");
+	
+			table.style.textAlign = "right";
+	
+			table.style.fontFamily = "Courier";
+	
+			table.style.fontSize = "40px";
+
+			table.setAttribute("border", 10);
+
+
+			for (i = 0; i < 21; i++) {
+
+				x = document.createElement("td");
+
+				x.appendChild(document.createTextNode(i));
+
+				x.style.color = "black";
+
+				x.style.background = "aqua";
+
+					
+					for (j = 2; j < 21; j++) {
+
+						y = document.createElement("tr");
+
+						//y.style.padding = 4"px";
+
+						f.push(f[(j - 1)] + f[(j - 2)]);
+
+						y.appendChild(document.createTextNode(f[i]));
+
+					}
+		
+
+				x.appendChild(y);
+
+		
+				table.appendChild(x);
+
+			}
+
+			document.body.appendChild(table);
+
+		}
+	</script>
+
+
+
+
+
+	</plaintext>
+</div>
+
+
+
+</body>
+</html>
